@@ -19,8 +19,8 @@ commons = "3.6"
 zxing = "3.3.2"
 dKVideoPlayer = "exo2.16.1"
 exoplayer = "2.16.1"
-hilt = "2.38.1"
-hilt-viewmodel = "1.0.0-alpha03"
+dagger-hilt = "2.43.2"
+hilt = " 1.0.0"
 kotlin = "1.6.10"
 retrofit = "2.9.0"
 
@@ -45,10 +45,10 @@ exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "
 exoplayer-core = { module = "com.google.android.exoplayer:exoplayer-core", version.ref = "exoplayer" }
 exoplayer-dash = { module = "com.google.android.exoplayer:exoplayer-dash", version.ref = "exoplayer" }
 exoplayer-ui = { module = "com.google.android.exoplayer:exoplayer-ui", version.ref = "exoplayer" }
-hilt = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
-hilt-dagger-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
-hilt-viewmodel = { module = "androidx.hilt:hilt-lifecycle-viewmodel", version.ref = "hilt-viewmodel" }
-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "hilt-viewmodel" }
+hilt = { module = "com.google.dagger:hilt-android", version.ref = "dagger-hilt" }
+hilt-dagger-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "dagger-hilt" }
+hilt-viewmodel = { module = "androidx.hilt:hilt-lifecycle-viewmodel", version.ref = "hilt" }
+hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "hilt" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 retrofit-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
 retrofit-mock = { module = "com.squareup.retrofit2:retrofit-mock", version.ref = "retrofit" }
@@ -61,3 +61,4 @@ application = { id = "com.android.application", version = "7.1.0" }
 library = { id = "com.android.library", version = "7.1.0" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "dagger-hilt" }

@@ -6,7 +6,7 @@ plugins {
     alias(libs.plugins.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.kapt)
-    id("dagger.hilt.android.plugin")
+    alias(libs.plugins.dagger.hilt)
 }
 
 val keystorePropertiesFile = rootProject.file("keystore.properties")
