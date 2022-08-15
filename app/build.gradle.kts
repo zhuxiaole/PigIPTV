@@ -1,7 +1,6 @@
 import java.util.Properties
 import java.io.FileInputStream
 
-@Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     alias(libs.plugins.application)
     alias(libs.plugins.kotlin.android)
